@@ -1,0 +1,18 @@
+{
+  "root": "D:\\other\\Bird\\Dataset\\CC0",
+  "audio_files": 2161,
+  "readable": 2161,
+  "unreadable": 0,
+  "species_folders": 114,
+  "total_hours": 32.41911722255685,
+  "sample_rates": {
+    "44100": 1647,
+    "48000": 422,
+    "16000": 38,
+    "22050": 31,
+    "32000": 21,
+    "11025": 1,
+    "96000": 1
+  },
+  "duplicate_files_sha256": 1373
+}
