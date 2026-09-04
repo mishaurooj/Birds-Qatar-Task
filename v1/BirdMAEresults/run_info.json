@@ -1,0 +1,17 @@
+{
+  "parameters": {
+    "total": 85529956,
+    "trainable": 14255716,
+    "trainable_fraction": 0.16667512374261012
+  },
+  "device": {
+    "torch": "2.5.1",
+    "cuda_available": true,
+    "cuda_version": "12.1",
+    "device": "cuda",
+    "gpu_name": "NVIDIA GeForce RTX 4070 Ti SUPER",
+    "gpu_memory_gb": 15.99
+  },
+  "best_val_macro_f1": 0.4835772010511639,
+  "gradient_accumulation_steps": 1
+}
