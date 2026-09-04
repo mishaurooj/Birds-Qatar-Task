@@ -523,10 +523,6 @@ For a PhD thesis, keep three concepts separate:
 
 If you obtain even a few hundred expert-reviewed Qatar clips, do not mix them into training immediately. Reserve an untouched expert test subset first.
 
-## Validation note
-
-See `VALIDATION.md`. The local architecture code passed compilation and AP1/AP2/AP3 tensor forward/backward smoke checks before packaging. Remote BirdMAE and BirdNET downloads must still be probed on your Windows PC before the long runs.
-
 ## Qatar pseudo-label dataset analysis
 
 After `13_build_qatar_manifests.py`, run:
@@ -546,9 +542,9 @@ qatar_labeling:
   pipit_policy: combine_anthus_report
 ```
 
-For the new PhD experiment, leave `separate_if_exact` so an exact BirdNET `Anthus similis` result can remain Long-billed Pipit while other `Anthus` detections map to `Pipit Spp.`.
+For the new experiment, leave `separate_if_exact` so an exact BirdNET `Anthus similis` result can remain Long-billed Pipit while other `Anthus` detections map to `Pipit Spp.`.
 
-## FIX2 Windows Kaggle training note
+## Windows Kaggle training note
 
 If you see repeated mpg123 `dequantization failed`, `part2_3_length`, or Xing warnings while `03_train_kaggle114.py` runs, stop that old run and create the training WAV cache first:
 
@@ -560,7 +556,7 @@ python scripts\03_train_kaggle114.py --config configs\default.yaml
 See `FIX2_NOTES.md`. Training now supports `--resume ...\interrupted.pt` and uses the non-deprecated PyTorch 2.5 AMP API.
 
 
-# FIX4: filtered public training for complete class coverage
+# filtered public training for complete class coverage
 
 FIX4 defaults to `kaggle.min_source_recordings: 3`. Species with fewer than three independent source recordings are excluded before 5-s segmentation because they cannot support source-disjoint train/validation/test evaluation. On the supplied 114-species coverage file this leaves 107 species.
 
@@ -575,9 +571,4 @@ python scripts\02c_check_split_coverage.py --config configs\default.yaml
 python scripts\03_train_kaggle_public.py --config configs\default.yaml --batch-size 32 --grad-accum 1
 ```
 
-Do not resume an old 114-class checkpoint after this change because the classifier label space is different.
-
-See `FIX4_NOTES.md` and `docs/STUDENT_REPORT_DATASET_REFERENCE.md`.
-
-For a stricter public benchmark, use `configs\public_best.yaml`. It requires at least five independent source recordings per retained species. Based on the supplied split-coverage table this should keep about 100 of the original 114 species, versus 107 with the minimum-three profile.
 
