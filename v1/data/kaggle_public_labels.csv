@@ -1,0 +1,101 @@
+label_id,original_label_id,common_name,scientific_name,folder_name,source_recordings
+0,0,Andean Guan,Penelope montagnii,Andean Guan_sound,30
+1,1,Andean Tinamou,Nothoprocta pentlandii,Andean Tinamou_sound,22
+2,2,Australian Brushturkey,Alectura lathami,Australian Brushturkey_sound,19
+3,3,Band-tailed Guan,Penelope argyrotis colombiana,Band-tailed Guan_sound,29
+4,5,Bartletts Tinamou,,Bartletts Tinamou_sound,30
+5,6,Baudo Guan,Penelope ortoni,Baudo Guan_sound,14
+6,7,Bearded Guan,Penelope barbata,Bearded Guan_sound,27
+7,8,Berlepschs Tinamou,,Berlepschs Tinamou_sound,7
+8,9,Biak Scrubfowl,Megapodius geelvinkianus,Biak Scrubfowl_sound,7
+9,10,Black Tinamou,Tinamus osgoodi hershkovitzi,Black Tinamou_sound,19
+10,11,Black-billed Brushturkey,Talegalla fuscirostris,Black-billed Brushturkey_sound,20
+11,12,Black-capped Tinamou,Crypturellus atrocapillus,Black-capped Tinamou_sound,23
+12,13,Black-fronted Piping Guan,Pipile jacutinga,Black-fronted Piping Guan_sound,11
+13,14,Blue-throated Piping Guan,Pipile cumanensis,Blue-throated Piping Guan_sound,30
+14,15,Brazilian Tinamou,Crypturellus strigulosus,Brazilian Tinamou_sound,29
+15,16,Brown Tinamou,Crypturellus obsoletus obsoletus,Brown Tinamou_sound,24
+16,17,Brushland Tinamou,Nothoprocta cinerascens parvimaculata,Brushland Tinamou_sound,24
+17,18,Buff-browed Chachalaca,Ortalis superciliaris,Buff-browed Chachalaca_sound,7
+18,19,Cauca Guan,Penelope perspicax,Cauca Guan_sound,30
+19,20,Chaco Chachalaca,Ortalis canicollis,Chaco Chachalaca_sound,30
+20,21,Chestnut-bellied Guan,Penelope ochrogaster,Chestnut-bellied Guan_sound,10
+21,23,Chestnut-winged Chachalaca,Ortalis garrula,Chestnut-winged Chachalaca_sound,29
+22,24,Chilean Tinamou,Nothoprocta perdicaria,Chilean Tinamou_sound,6
+23,25,Choco Tinamou,Crypturellus kerriae,Choco Tinamou_sound,5
+24,26,Cinereous Tinamou,Crypturellus cinereus,Cinereous Tinamou_sound,30
+25,27,Collared Brushturkey,Talegalla jobiensis,Collared Brushturkey_sound,20
+26,28,Colombian Chachalaca,Ortalis columbiana,Colombian Chachalaca_sound,30
+27,29,Common Ostrich,Struthio camelus australis,Common Ostrich_sound,6
+28,30,Crested Guan,Penelope purpurascens aequatorialis,Crested Guan_sound,30
+29,31,Curve-billed Tinamou,Nothoprocta curvirostris,Curve-billed Tinamou_sound,5
+30,32,Darwins Nothura,,Darwins Nothura_sound,19
+31,33,Dusky Megapode,Megapodius freycinet,Dusky Megapode_sound,23
+32,34,Dusky-legged Guan,Penelope obscura bronzina,Dusky-legged Guan_sound,30
+33,36,Dwarf Tinamou,Taoniscus nanus,Dwarf Tinamou_sound,25
+34,37,East Brazilian Chachalaca,Ortalis araucuan,East Brazilian Chachalaca_sound,22
+35,38,Elegant Crested Tinamou,Eudromia elegans patagonica,Elegant Crested Tinamou_sound,5
+36,39,Emu,Dromaius novaehollandiae,Emu_sound,16
+37,40,Great Spotted Kiwi,Apteryx haastii,Great Spotted Kiwi_sound,7
+38,41,Great Tinamou,Tinamus major,Great Tinamou_sound,30
+39,42,Greater Rhea,Rhea americana,Greater Rhea_sound,13
+40,43,Grey Tinamou,Tinamus tao,Grey Tinamou_sound,27
+41,44,Grey-headed Chachalaca,Ortalis cinereiceps,Grey-headed Chachalaca_sound,30
+42,45,Grey-legged Tinamou,Crypturellus duidae,Grey-legged Tinamou_sound,12
+43,46,Highland Tinamou,Nothocercus bonapartei,Highland Tinamou_sound,28
+44,47,Hooded Tinamou,Nothocercus nigrocapillus,Hooded Tinamou_sound,14
+45,48,Huayco Tinamou,Rhynchotus maculicollis,Huayco Tinamou_sound,9
+46,49,Lesser Nothura,Nothura minor,Lesser Nothura_sound,10
+47,51,Little Chachalaca,Ortalis motmot,Little Chachalaca_sound,30
+48,52,Little Spotted Kiwi,Apteryx owenii,Little Spotted Kiwi_sound,6
+49,53,Little Tinamou,Crypturellus soui harterti,Little Tinamou_sound,30
+50,54,Maleo,Macrocephalon maleo,Maleo_sound,7
+51,55,Malleefowl,Leipoa ocellata,Malleefowl_sound,8
+52,56,Marail Guan,Penelope marail jacupeba,Marail Guan_sound,16
+53,57,Melanesian Megapode,Megapodius eremita,Melanesian Megapode_sound,11
+54,58,Micronesian Megapode,Megapodius laperouse laperouse,Micronesian Megapode_sound,5
+55,59,Moluccan Megapode,Eulipoa wallacei,Moluccan Megapode_sound,6
+56,60,New Guinea Scrubfowl,Megapodius decollatus,New Guinea Scrubfowl_sound,6
+57,62,North Island Brown Kiwi,Apteryx mantelli,North Island Brown Kiwi_sound,19
+58,63,Northern Cassowary,Casuarius unappendiculatus,Northern Cassowary_sound,6
+59,64,Okarito Kiwi,Apteryx rowi,Okarito Kiwi_sound,5
+60,65,Orange-footed Scrubfowl,Megapodius reinwardt,Orange-footed Scrubfowl_sound,29
+61,66,Ornate Tinamou,Nothoprocta ornata rostrata,Ornate Tinamou_sound,8
+62,67,Pale-browed Tinamou,Crypturellus transfasciatus,Pale-browed Tinamou_sound,14
+63,69,Philippine Megapode,Megapodius cumingii,Philippine Megapode_sound,19
+64,70,Plain Chachalaca,Ortalis vetula,Plain Chachalaca_sound,30
+65,71,Puna Tinamou,Tinamotis pentlandii,Puna Tinamou_sound,12
+66,72,Quebracho Crested Tinamou,Eudromia formosa,Quebracho Crested Tinamou_sound,9
+67,73,Red-billed Brushturkey,Talegalla cuvieri,Red-billed Brushturkey_sound,6
+68,74,Red-faced Guan,Penelope dabbenei,Red-faced Guan_sound,24
+69,75,Red-legged Tinamou,Crypturellus erythropus spencei,Red-legged Tinamou_sound,23
+70,76,Red-throated Piping Guan,Pipile cujubi nattereri,Red-throated Piping Guan_sound,15
+71,77,Red-winged Tinamou,Rhynchotus rufescens,Red-winged Tinamou_sound,24
+72,78,Rufous-bellied Chachalaca,Ortalis wagleri,Rufous-bellied Chachalaca_sound,30
+73,79,Rufous-headed Chachalaca,Ortalis erythroptera,Rufous-headed Chachalaca_sound,30
+74,80,Rufous-vented Chachalaca,Ortalis ruficauda,Rufous-vented Chachalaca_sound,27
+75,81,Rusty Tinamou,Crypturellus brevirostris,Rusty Tinamou_sound,13
+76,82,Rusty-margined Guan,Penelope superciliaris,Rusty-margined Guan_sound,29
+77,83,Scaled Chachalaca,Ortalis squamata,Scaled Chachalaca_sound,17
+78,84,Slaty-breasted Tinamou,Crypturellus boucardi boucardi,Slaty-breasted Tinamou_sound,21
+79,85,Small-billed Tinamou,Crypturellus parvirostris,Small-billed Tinamou_sound,30
+80,86,Solitary Tinamou,Tinamus solitarius,Solitary Tinamou_sound,25
+81,89,Southern Cassowary,Casuarius casuarius,Southern Cassowary_sound,18
+82,90,Speckled Chachalaca,Ortalis guttata,Speckled Chachalaca_sound,30
+83,91,Spixs Guan,,Spixs Guan_sound,30
+84,92,Spotted Nothura,Nothura maculosa,Spotted Nothura_sound,29
+85,93,Sula Megapode,Megapodius bernsteinii,Sula Megapode_sound,5
+86,94,Taczanowskis Tinamou,,Taczanowskis Tinamou_sound,5
+87,96,Tataupa Tinamou,Crypturellus tataupa,Tataupa Tinamou_sound,28
+88,97,Tawny-breasted Tinamou,Nothocercus julius,Tawny-breasted Tinamou_sound,30
+89,99,Thicket Tinamou,Crypturellus cinnamomeus,Thicket Tinamou_sound,26
+90,100,Tongan Megapode,Megapodius pritchardii,Tongan Megapode_sound,14
+91,102,Undulated Tinamou,Crypturellus undulatus,Undulated Tinamou_sound,30
+92,104,Variegated Tinamou,Crypturellus variegatus,Variegated Tinamou_sound,30
+93,106,West Mexican Chachalaca,Ortalis poliocephala,West Mexican Chachalaca_sound,30
+94,107,White-bellied Chachalaca,Ortalis leucogastra,White-bellied Chachalaca_sound,19
+95,108,White-bellied Nothura,Nothura boraquira,White-bellied Nothura_sound,27
+96,110,White-crested Guan,Penelope pileata,White-crested Guan_sound,12
+97,111,White-throated Tinamou,Tinamus guttatus,White-throated Tinamou_sound,30
+98,112,White-winged Guan,Penelope albipennis,White-winged Guan_sound,20
+99,113,Yellow-legged Tinamou,Crypturellus noctivagus,Yellow-legged Tinamou_sound,25

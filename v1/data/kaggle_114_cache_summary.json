@@ -1,0 +1,15 @@
+{
+  "source_recordings_before": 2161,
+  "cached_ok": 2161,
+  "cache_failed": 0,
+  "clips_before": 22347,
+  "clips_after": 22347,
+  "cache_root": "D:\\other\\Bird\\Code\\data\\kaggle_wav_cache",
+  "sample_rate": 32000,
+  "all_training_paths_are_wav": true,
+  "split_clip_counts": {
+    "train": 15820,
+    "val": 3366,
+    "test": 3161
+  }
+}

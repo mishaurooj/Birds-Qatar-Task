@@ -1,0 +1,15 @@
+original_label_id,common_name,scientific_name,folder_name,source_recordings,drop_reason
+4,Barred Tinamou,Crypturellus casiquiare,Barred Tinamou_sound,3,fewer_than_5_independent_source_recordings
+22,Chestnut-headed Chachalaca,Ortalis ruficeps,Chestnut-headed Chachalaca_sound,4,fewer_than_5_independent_source_recordings
+35,Dwarf Cassowary,Casuarius bennetti,Dwarf Cassowary_sound,2,fewer_than_5_independent_source_recordings
+50,Lesser Rhea,Rhea pennata,Lesser Rhea_sound,4,fewer_than_5_independent_source_recordings
+61,Nicobar Megapode,Megapodius nicobariensis,Nicobar Megapode_sound,2,fewer_than_5_independent_source_recordings
+68,Patagonian Tinamou,Tinamotis ingoufi,Patagonian Tinamou_sound,1,fewer_than_5_independent_source_recordings
+87,Somali Ostrich,Struthio molybdophanes,Somali Ostrich_sound,1,fewer_than_5_independent_source_recordings
+88,Southern Brown Kiwi,Apteryx australis,Southern Brown Kiwi_sound,3,fewer_than_5_independent_source_recordings
+95,Tanimbar Megapode,Megapodius tenimberensis,Tanimbar Megapode_sound,1,fewer_than_5_independent_source_recordings
+98,Tepui Tinamou,Crypturellus ptaritepui,Tepui Tinamou_sound,2,fewer_than_5_independent_source_recordings
+101,Trinidad Piping Guan,Pipile pipile,Trinidad Piping Guan_sound,1,fewer_than_5_independent_source_recordings
+103,Vanuatu Megapode,Megapodius layardi,Vanuatu Megapode_sound,3,fewer_than_5_independent_source_recordings
+105,Wattled Brushturkey,Aepypodius arfakianus arfakianus,Wattled Brushturkey_sound,3,fewer_than_5_independent_source_recordings
+109,White-browed Guan,Penelope jacucaca,White-browed Guan_sound,3,fewer_than_5_independent_source_recordings

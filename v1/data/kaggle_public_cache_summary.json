@@ -1,0 +1,19 @@
+{
+  "classes_after_cache": 100,
+  "usable_source_recordings": 1951,
+  "failed_or_too_short_sources": 177,
+  "clips_after_report_sp": 16185,
+  "split_recordings": {
+    "train": 1387,
+    "val": 282,
+    "test": 282
+  },
+  "split_clips": {
+    "train": 11393,
+    "test": 2451,
+    "val": 2341
+  },
+  "cache_root": "D:\\other\\Bird\\Code\\data\\kaggle_training_wav_cache_sp",
+  "report_sp_applied": true,
+  "all_paths_wav": true
+}

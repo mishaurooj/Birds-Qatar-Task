@@ -1,0 +1,35 @@
+{
+  "raw_species_detected": 114,
+  "retained_species": 100,
+  "dropped_species": 14,
+  "minimum_source_recordings": 5,
+  "retained_recordings": 2128,
+  "retained_clips_before_sp_cache": 22038,
+  "split_recordings": {
+    "train": 1528,
+    "val": 300,
+    "test": 300
+  },
+  "split_clips": {
+    "train": 15983,
+    "val": 3041,
+    "test": 3014
+  },
+  "dropped_names": [
+    "Barred Tinamou",
+    "Chestnut-headed Chachalaca",
+    "Dwarf Cassowary",
+    "Lesser Rhea",
+    "Nicobar Megapode",
+    "Patagonian Tinamou",
+    "Somali Ostrich",
+    "Southern Brown Kiwi",
+    "Tanimbar Megapode",
+    "Tepui Tinamou",
+    "Trinidad Piping Guan",
+    "Vanuatu Megapode",
+    "Wattled Brushturkey",
+    "White-browed Guan"
+  ],
+  "method": "source-recording-disjoint class-aware split; low-source classes removed before segmentation"
+}
