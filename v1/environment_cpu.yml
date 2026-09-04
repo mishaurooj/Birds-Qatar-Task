@@ -1,0 +1,36 @@
+name: qatarbird-afm-2026-cpu
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10.14
+  - pytorch=2.5.1
+  - torchvision=0.20.1
+  - torchaudio=2.5.1
+  - cpuonly
+  - mkl
+  - intel-openmp
+  - vs2015_runtime
+  - vc14_runtime
+  - libsndfile
+  - ffmpeg
+  - pip
+  - pip:
+      - transformers==4.46.3
+      - huggingface-hub==0.26.5
+      - safetensors==0.4.5
+      - accelerate==1.1.1
+      - numpy==1.26.4
+      - pandas==2.2.3
+      - scikit-learn==1.5.2
+      - scipy==1.14.1
+      - soundfile==0.12.1
+      - librosa==0.10.2.post1
+      - matplotlib==3.9.2
+      - PyYAML==6.0.2
+      - tqdm==4.67.0
+      - kaggle==1.6.17
+      - networkx==3.4.2
+      - tensorboard==2.18.0
+      - psutil==6.1.0

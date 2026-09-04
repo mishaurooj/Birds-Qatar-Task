@@ -1,0 +1,18 @@
+name: qatarbird-birdnet
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - libsndfile
+  - ffmpeg
+  - pip
+  - pip:
+      - birdnet==0.2.3
+      - tensorflow==2.20.0
+      - numpy==1.26.4
+      - pandas==2.2.3
+      - soundfile==0.12.1
+      - librosa==0.10.2.post1
+      - tqdm==4.67.0
+      - PyYAML==6.0.2
