@@ -1,9 +1,4 @@
 # QatarBird-AFM 2026: full Kaggle -> Qatar experiment package
-
-This is the updated local-PC pipeline requested for the Qatar bird PhD work.
-
-The critical change from the earlier starter is that the **complete Kaggle dataset is now the public training stage**. The 20-species subset is no longer used for the scientific pipeline.
-
 ## Research flow
 
 ```text
