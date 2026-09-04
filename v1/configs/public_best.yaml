@@ -1,0 +1,133 @@
+project:
+  name: QatarBird-AFM-2026
+  seed: 42
+  results_root: results
+paths:
+  kaggle_root: D:/other/Bird/Dataset/CC0
+  qatar_root: D:/other/Bird/Dataset/Qatar
+  kaggle_manifest: data/kaggle_public_clips.csv
+  kaggle_labels: data/kaggle_public_labels.csv
+  qatar_raw_audit: data/qatar_raw_audit.csv
+  qatar_label_clips: data/qatar_label_clips
+  qatar_birdnet_windows: data/qatar_birdnet_windows.csv
+  qatar_confirmed_labels: data/qatar_confirmed_labels.csv
+  qatar_single_manifest: data/qatar_singlelabel_manifest.csv
+  qatar_multi_manifest: data/qatar_multilabel_manifest.csv
+  kaggle_checkpoint: models/kaggle_public/best.pt
+  kaggle_wav_cache: data/kaggle_training_wav_cache_sp
+  kaggle_prototypes: models/kaggle_public/prototypes.pt
+  qatar_ap1_checkpoint: models/qatar/ap1_best.pt
+  kaggle_recordings: data/kaggle_public_recordings.csv
+  kaggle_dropped_classes: data/kaggle_dropped_low_source_classes.csv
+  kaggle_classifier_head: models/kaggle_public/classifier_head.pt
+backbone:
+  type: birdmae
+  hf_model: DBD-research-group/Bird-MAE-Base
+  embedding_dim: 768
+  sample_rate: 32000
+  trust_remote_code: true
+  freeze_backbone: false
+  unfreeze_last_blocks: 2
+preprocessing:
+  sample_rate: 32000
+  clip_seconds: 5.0
+  use_report_sp_pipeline: true
+  bandpass_low_hz: 800
+  bandpass_high_hz: 15000
+  filter_order: 6
+  spectral_gate_noise_seconds: 0.5
+  silence_top_db: 40
+  rms_target_dbfs: -20.0
+kaggle:
+  val_fraction: 0.15
+  test_fraction: 0.15
+  min_clip_seconds: 5.0
+  max_clips_per_recording: 0
+  split_group_columns:
+  - recording_id
+  require_cached_wav: true
+  drop_low_source_classes: true
+  min_source_recordings: 5
+  require_all_splits: true
+  apply_report_sp_during_cache: true
+  drop_sources_shorter_than_clip_after_sp: true
+qatar_labeling:
+  report_mode: true
+  birdnet_model_version: '2.4'
+  birdnet_backend: tf
+  window_seconds: 3.0
+  window_starts:
+  - 0.0
+  - 1.0
+  - 2.0
+  confirmation_min_windows: 2
+  min_confidence: 0.6
+  ignore_out_of_target_species: true
+  use_26_report_species: true
+  pipit_policy: separate_if_exact
+training:
+  epochs: 30
+  batch_size: 32
+  num_workers: 0
+  gradient_accumulation_steps: 1
+  lr: 0.0001
+  backbone_lr_multiplier: 0.1
+  weight_decay: 0.01
+  warmup_epochs: 1
+  patience: 5
+  grad_clip: 1.0
+  amp: true
+  loss: weighted_ce
+  rare_quantile: 0.25
+augmentation:
+  pitch_probability: 0.3
+  pitch_steps: 1.0
+  noise_probability: 0.5
+  snr_min_db: 12.0
+  snr_max_db: 30.0
+  mixup_probability: 0.3
+  mixup_alpha: 0.4
+  overlap_probability: 0.35
+ap1:
+  num_experts: 4
+  adapter_bottleneck: 96
+  top_k_experts: 2
+  lambda_condition: 0.05
+  lambda_prototype: 0.1
+  lambda_router_balance: 0.01
+ap2:
+  max_sources: 4
+  queries: 4
+  decoder_layers: 2
+  curriculum_epochs:
+  - 5
+  - 12
+  - 20
+  hard_pair_gamma: 2.0
+  threshold_grid:
+  - 0.1
+  - 0.15
+  - 0.2
+  - 0.25
+  - 0.3
+  - 0.35
+  - 0.4
+  - 0.45
+  - 0.5
+  - 0.55
+  - 0.6
+  - 0.65
+  - 0.7
+  - 0.75
+  - 0.8
+  - 0.85
+  - 0.9
+ap3:
+  specialists: 4
+  graph_alpha_confusion: 0.5
+  graph_beta_similarity: 0.3
+  graph_gamma_uncertainty: 0.2
+  graph_rebuild_every: 3
+  graph_threshold: 0.35
+  lambda_contrastive: 0.05
+  correction_scale: 0.5

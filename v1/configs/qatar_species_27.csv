@@ -1,0 +1,28 @@
+qatar_label_id,common_name,scientific_name,family,report_public_minutes,report_training_status,report_local_hms,report_local_seconds,report_local_note
+0,Common Myna,Acridotheres tristis,Sturnidae,245,include,01:03:25,3805.0,
+1,House Sparrow,Passer domesticus,Passeridae,338,include,04:13:55,15235.0,
+2,Indian Silverbill,Euodice malabarica,Estrildidae,21,include,01:00:10,3610.0,
+3,Graceful Prinia,Prinia gracilis,Cisticolidae,65,include,00:36:25,2185.0,
+4,Laughing Dove,Spilopelia senegalensis,Columbidae,64,include,00:29:55,1795.0,
+5,Eurasian Collared Dove,Streptopelia decaocto,Columbidae,164,include,02:22:40,8560.0,
+6,Great Grey Shrike,Lanius excubitor,Laniidae,273,include,00:00:10,10.0,
+7,White Eared Bulbul,Pycnonotus leucotis,Pycnonotidae,26,include,18:17:00,65820.0,
+8,Red Vented Bulbul,Pycnonotus cafer,Pycnonotidae,79,include,00:34:45,2085.0,
+9,Grey Francolin,Ortygornis pondicerianus,Phasianidae,86,include,21:30:15,77415.0,
+10,Rock Pigeon,Columba livia,Columbidae,87,include,00:00:00,0.0,
+11,White Wagtail,Motacilla alba,Motacillidae,157,include,00:02:25,145.0,
+12,Common Hoopoe,Upupa epops,Upupidae,279,include,00:56:10,3370.0,
+13,Daurian Shrike,Lanius isabellinus,Laniidae,53,include,00:00:00,0.0,
+14,Wood Warbler,Phylloscopus sibilatrix,Phylloscopidae,457,include,00:00:05,5.0,
+15,Long-billed Pipit,Anthus similis,Motacillidae,33,include,,,SDP Table 4-2 combines Anthus including pipits; no separate local duration reported.
+16,Rose-Ringed Parakeet,Psittacula krameri,Psittaculidae,138,include,00:25:15,1515.0,
+17,Crested Lark,Galerida cristata,Alaudidae,131,include,00:55:30,3330.0,
+18,Masked Shrike,Lanius nubicus,Laniidae,53,include,00:00:00,0.0,
+19,Namaqua Dove,Oena capensis,Columbidae,25,include,00:01:30,90.0,
+20,Black Winged Stilt,Himantopus himantopus,Recurvirostridae,125,include,00:00:00,0.0,
+21,Pipit Spp.,Anthus,Motacillidae,500,include,00:00:00,0.0,SDP Table 4-2 reports one combined Anthus including pipits row at 00:00:00.
+22,Red Wattled Lapwing,Vanellus indicus,Charadriidae,94,include,00:05:10,310.0,
+23,Rufous Tailed Scrub Robin,Cercotrichas galactotes,Muscicapidae,390,include,00:00:00,0.0,
+24,Variable Wheatear,Oenanthe picta,Muscicapidae,5,exclude_in_report,,,Excluded from SDP training/testing; no local duration row reported.
+25,Barn Swallow,Hirundo rustica,Hirundinidae,354,include,00:00:05,5.0,
+26,Little Green Bee-eater,Merops orientalis,Meropidae,25,include,00:00:00,0.0,

@@ -1,0 +1,7 @@
+variant,description
+C0_global,Global 27/26-class classifier only
+C1_static_hard,Static confusion graph with hard specialist routing
+C2_static_soft,Static confusion graph with soft specialists
+C3_dynamic_soft,Dynamic confusion graph with soft specialists
+C4_dynamic_contrastive,C3 plus graph-weighted contrastive loss
+C5_full_dcgs,C4 plus uncertainty-scaled specialist correction

@@ -1,0 +1,7 @@
+variant,description
+B0_5s_sigmoid,5-second encoder plus sigmoid multi-label head
+B1_10s_sigmoid,10-second two-half context plus sigmoid head
+B2_adaptive_multiscale,Adaptive 5s/10s context gate plus sigmoid head
+B3_set_decoder,Adaptive context plus query set decoder
+B4_set_intervals,B3 plus interval regression
+B5_full_uaps,B4 plus uncertainty-guided difficult-pair curriculum

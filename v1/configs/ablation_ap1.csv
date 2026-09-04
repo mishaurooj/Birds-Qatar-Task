@@ -1,0 +1,7 @@
+variant,description,router,condition_adversary,prototype_loss,sparse_topk,kaggle_init
+A0_frozen_linear,Frozen Kaggle-trained BirdMAE plus linear Qatar head,0,0,0,0,1
+A1_single_adapter,Single residual adapter,0,0,0,0,1
+A2_sparse_router,Condition-dependent sparse adapter routing,1,0,0,1,1
+A3_router_condition,A2 plus condition-invariance adversary,1,1,0,1,1
+A4_router_prototype,A2 plus prototype preservation,1,0,1,1,1
+A5_full_acpsar,Full ACP-SAR,1,1,1,1,1
