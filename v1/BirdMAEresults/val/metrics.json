@@ -1,0 +1,23 @@
+{
+  "accuracy": 0.5813754805638616,
+  "balanced_accuracy": 0.5529273436746847,
+  "macro_f1": 0.4835772010511639,
+  "macro_f1_all_classes": 0.4835772010511639,
+  "weighted_f1": 0.5819302189908949,
+  "macro_precision": 0.4928637552691944,
+  "macro_recall": 0.5529273436746847,
+  "evaluation_class_coverage": 1.0,
+  "evaluation_classes_present": 100,
+  "evaluation_classes_total": 100,
+  "missing_class_ids": [],
+  "missing_class_names": [],
+  "cohen_kappa": 0.5745168576584944,
+  "mcc": 0.5766641731654629,
+  "log_loss": 1.9885966455714754,
+  "macro_auroc_ovr": 0.9585176361342509,
+  "macro_average_precision": 0.5828123065819772,
+  "top3_accuracy": 0.7163605296881674,
+  "rare_class_recall": 0.4945454545454545,
+  "rare_classes_present": 25,
+  "rare_classes_total": 25
+}
